@@ -40,7 +40,11 @@ RenderSettings:
   m_Sun: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 0.4493239, g: 0.4993999, b: 0.57570434, a: 1}
+=======
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+>>>>>>> 67ed5759138cb130e163d009036ba9657a5f1eab
 =======
   m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
 >>>>>>> 67ed5759138cb130e163d009036ba9657a5f1eab
@@ -12377,6 +12381,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!43 &2002962295
 Mesh:
   m_ObjectHideFlags: 0
@@ -12535,6 +12540,8 @@ Mesh:
 =======
 =======
 >>>>>>> 67ed5759138cb130e163d009036ba9657a5f1eab
+=======
+>>>>>>> 67ed5759138cb130e163d009036ba9657a5f1eab
 --- !u!1 &2063496256
 GameObject:
   m_ObjectHideFlags: 0
@@ -12624,6 +12631,9 @@ Transform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 67ed5759138cb130e163d009036ba9657a5f1eab
+=======
 >>>>>>> 67ed5759138cb130e163d009036ba9657a5f1eab
 =======
 >>>>>>> 67ed5759138cb130e163d009036ba9657a5f1eab
