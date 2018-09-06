@@ -13278,7 +13278,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-106926
+  m_Name: pb_Mesh12634
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -14041,7 +14041,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-13258
+  m_Name: pb_Mesh12620
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -14987,6 +14987,7 @@ GameObject:
   - component: {fileID: 1772957733}
   - component: {fileID: 1772957732}
   - component: {fileID: 1772957731}
+  - component: {fileID: 1772957734}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -15054,6 +15055,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
+--- !u!114 &1772957734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1772957730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bd9b3a199c8e8b4ba3b8fb0c0463ac0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panSpeed: 70
+  minY: 30
+  maxY: 200
+  panBorderThickness: 10
+  scrollSpeed: 5
 --- !u!43 &1806345108
 Mesh:
   m_ObjectHideFlags: 0
