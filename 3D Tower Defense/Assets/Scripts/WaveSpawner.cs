@@ -10,6 +10,7 @@ public class WaveSpawner : MonoBehaviour {
     public float timeBetweenWaves = 5.5f;
     private float countdown = 2f;
     private int waveIndex = 0;
+    public int ennemyIndex = 0;
 
     public Text waveCountdownText;
 
@@ -30,6 +31,7 @@ public class WaveSpawner : MonoBehaviour {
     IEnumerator SpawnWave()
     {
         waveIndex++;
+        ennemyIndex++;
         for (int i = 0; i < waveIndex; i++)
         {
             SpawnEnemy();
