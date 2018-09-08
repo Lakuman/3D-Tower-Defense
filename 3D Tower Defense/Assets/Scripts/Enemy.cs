@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
 
-    public float speed = 10f;  
+    public float speed = 10f;
     private Transform target;
     private int wavepointIndex = 0;
 
@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
     {
         //First line gives us a direction between the enemy(target) and the next Waypoint
         Vector3 dir = target.position - transform.position;
-        transform.Translate(dir.normalized * speed * Time.deltaTime);
+        transform.Translate(dir.normalized *speed* Time.deltaTime);
         if (Vector3.Distance(transform.position, target.position) <= 0.2f)
         {
             GetNextWaypoint();
